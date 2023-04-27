@@ -1,0 +1,26 @@
+.card {
+    background-color: bisque;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+    padding: 2rem 1rem;
+}
+
+.card img {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.title,
+.rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.75rem 0;
+}
